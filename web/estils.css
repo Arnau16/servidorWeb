@@ -30,26 +30,18 @@ header{
     overflow: hidden;
     transition: all 0.5s ease;
 }
-header h1{
+header .cap{
     font-size: 42px;
     line-height: 230px;
     transition: all 0.3s ease;
     background-image: url(https://static.vueling.com/corporative7/media/1436/background_home4.jpg);
     background-repeat: round;
 }
-header hl i{
+header .cap i{
     font-weight: bold;
     text-transform: uppercase;
 }
-header nav{
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    line-height: 60px;
-    width: 100%;
-    background-color: yellow;
-    padding: 10px 10px;
-}
+
 h2{
     font-size: 34px;
     text-transform: uppercase;
@@ -57,6 +49,13 @@ h2{
     line-height: 2;
     color: #2c3e50;
     text-align: center;
+}
+
+#frontendMenuWeb{
+    background-color: yellow;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
 }
 
 /* Galeria */
@@ -110,6 +109,7 @@ td{
 
 #frontendPresentacio{
     text-align: center;
+    flex-direction: column;
 }
 
 h4{
@@ -137,6 +137,19 @@ body {
 
 body > #frontendHome {
     display: flex;
+    flex-direction: column;
+
+}
+
+/*Recomanacions i fotos*/
+
+.fotosinici{
+    display: flex;
+    justify-content: center;
+}
+
+.recomanacions{
+    
 }
 
 body > #frontendPresentacio {

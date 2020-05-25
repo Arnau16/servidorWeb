@@ -27,8 +27,7 @@
     </head>
     <body onload='inicia()'>
         <header>
-            <h1>VIATJA AMB <i>I FLY</i></h1>
-            <nav>
+            <div class="cap">VIATJA AMB <i>I FLY</i></div>
                 <div id='frontendMenuWeb' class='flexRow desktop'>
                     <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendHome")'>Inici</div>
                     <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendPresentacio")'>Presentació</div>
@@ -39,14 +38,10 @@
                     <div id='botoGestioProductesWeb' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeProductes")'>Gestió productes</div>
                     <div id='botoLogoutWeb' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
                 </div>
-            </nav>
+
         </header>
-        <div class="contenidor">
-            <section>
-                <h2>Escull un desti... <i>Et portem!</i></h2>
-            </section>
-        </div>
-        </div>
+
+
         <div id='frontendMenuMobil' class='flexColumn mobile'>
             <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendHome")'>Inici</div>
             <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendPresentacio")'>Presentació</div>
@@ -58,31 +53,77 @@
             <div id='botoLogoutMobil' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
         </div>
         <div id='frontendHome'>
-                    <div class="roma">
-                        <img src="https://www.elconfidencialdigital.com/asset/zoomcrop,1366,800,center,center//media/elconfidencialdigital/images/2018/08/21/2018082110450128772.jpg" alt="" width="450" height="231.75">
+            <div class="contenidor">
+                <section>
+                    <h2>Escull un desti... <i>Et portem!</i></h2>
+                </section>
+            </div>
+            <div class="fotosinici">
+                    <div>
+                        <img src="https://www.barcelo.com/pinandtravel/wp-content/uploads/2017/06/isla-saona-excursiones-punta-cana-vacaciones.jpg" alt="" width="450" height="231.75">
                     </div>
-                    <div class="roma">
+                    <div>
                         <img src="https://www.caracteristicas.co/wp-content/uploads/2016/06/civilizacion-romana-e1558669365322.jpg" alt="" width="450" height="231.75">
                     </div>
-                    <div class="amsterdam">
-                        <img src="https://a.cdn-hotels.com/gdcs/production43/d534/1bd81a82-de7a-4cf5-a625-ca3cd27a3346.jpg" alt="" width="450" height="231.75">
+                    <div>
+                        <img src="https://m.eldiario.es/canariasahora/viajarahora/Canal-Jordaan-barrios-Amsterdam-Alejandro_EDIIMA20170201_0690_19.jpg" alt="" width="450" height="231.75">
                     </div>
-                    <div class="islas maldivas">
-                        <img src="https://www.elconfidencialdigital.com/asset/zoomcrop,1366,800,center,center//media/elconfidencialdigital/images/2018/08/21/2018082110450128772.jpg" alt="" width="450" height="231.75">
+                    <div>
+                        <img src="https://www.elconfidencialdigital.com/asset/zoomcrop%252C1366%252C800%252Ccenter%252Ccenter//media/elconfidencialdigital/images/2018/08/21/2018082110450128772.jpg" alt="" width="450" height="231.75">
                     </div>
+
+                </div>
+            <div class="ofertacotxe">
+                <h2>Oferta cotxes i hotel!</h2>
+                <img src="https://static.vueling.com/corporative7/media/1098/coches.jpg" alt="" width="450" height="120">
+                    <div class="alquilacotxe">
+                        <h3 class="alquiler">Alquila el teu cotxe</h3>
+                            <ul class="llista">
+                                <li class="cancelacio">
+                                    <span class="icona">Cancelació gratis fins a 24h abans</span>
+                                </li>
+                                <li class="proveedors">
+                                    <span class="icona1">Més de 1500 proveedors</span>
+                                </li>
+                                <li class="Iflyos">
+                                    <span class="icona2">Posibilitat d'acumular Iflyos</span>
+                                </li>
+                            </ul>
+                    </div>
+                <img src="https://www.hotelrhifach.com/images/content/1/c3719_c3719_c3720_doble-sin-sofa.jpg" alt="" width="450" height="120">
+                    <div class="hotel">
+                        <h3 class="reserva">Reserva la teva habitació!</h3>
+                            <ul class="habitació">
+                                <li class="descomptes">
+                                    <span class="hotel1">Fins un 50% de descompte en alguns allotjaments</span>
+                                </li>
+                                <li class="descompte2">
+                                    <span class="hotel2">Igualem el preu</span>
+                                </li>
+                                <li class="descompte3">
+                                    <span class="hotel3">Posibilitat d'acumular Iflyos</span>
+                                </li>
+                            </ul>
+                    </div>
+            </div>
+            <div class="recomanacions">
+                    
+                </div>
                 <section class="viatges">
                     <div class="contenidor1">
                     </div>
+
                 </section>
 
         </div>
+
             <div id="frontendPresentacio">
                 <h2>Per què has de viatjar amb nosaltres?</h2>
-        </div>
+                
                 <h4>I FLY som una empresa que et portem a més de 130 llocs de les principals ciutats de tot el món; Europa, Àfrica, Amèrica del Nord, Amèrica del sud i a Àsia</h4>
                 <h4>És fàcil només has d'entrar a la nostra web i escollir el desti que més t'agradi i troba viatges baratos. I no és tot aquí t'oferim algunes avantatges</h4>
-            <h2>Activitats per realitzar en els nostres viatges:</h2>
-            <div class="activitats"><h5>Aqui podeu veure un serie d'activitats i el seu preu:</h5></div> 
+                <h2>Activitats per realitzar en els nostres viatges:</h2>
+                <div class="activitats"><h5>Aqui podeu veure un serie d'activitats i el seu preu:</h5></div> 
                 <table class="taula1">
                     <h5>Punta Cana</h5>
                     <tr>
@@ -113,6 +154,7 @@
                     </div>
                 </div>
                 <table class="taula2">
+                    <h5>Roma</h5>
                     <tr>
                         <th>Excursió a Roma</th>
                     </tr>
@@ -141,6 +183,7 @@
                     </div>
                 </div>
                 <table class="taula3">
+                    <h5>Amsterdam</h5>
                     <tr>
                         <th>Excursió a Amsterdam</th>
                     </tr>
@@ -164,11 +207,12 @@
                 <div class="container2">
                     <div class="card-container2">
                         <div>
-                            <img src="https://lh3.googleusercontent.com/proxy/t5W3_SEgwNwu2GjOmrpuOM0cJTVwDtLFJT_EAl0HPk4fhxFJJkx_KXhC0sbXT0g6C47Ovkq0PzUCjMYimT2xpA-z_EMFmcpQNR5xBeEatUmQ-8Mg6YporWutJtg_AmM" alt="" width="450" height="231.75">
+                            <img src="https://m.eldiario.es/canariasahora/viajarahora/Canal-Jordaan-barrios-Amsterdam-Alejandro_EDIIMA20170201_0690_19.jpg" alt="" width="450" height="231.75">
                         </div>
                     </div>
                 </div>
                 <table class="taula4">
+                    <h5>Illes Maldives</h5>
                     <tr>
                         <th>Excursió a les Illes Maldives</th>
                     </tr>
@@ -197,6 +241,7 @@
                     </div>
                 </div>
                 <table class="taula4">
+                    <h5>Argentina</h5>
                     <tr>
                         <th>Excursió a Buenos Aires</th>
                     </tr>
@@ -224,6 +269,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
 
         <div id='frontendProductes'>
@@ -362,7 +408,7 @@
             <div id='productesLoading'>Carregant productes ...</div>
 
         <div id='frontendContacte'>
-            
+            <h3>Hola</h3>
         </div>
         <div id='backofficeUsuaris'>
             <div id='backofficeUsuarisLoading'></div>
