@@ -173,6 +173,12 @@ body > #frontendProductes > #productesContinguts {
 
 body > #frontendContacte {
     display: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.material-icons{
+    margin: 30px 0 16px;
 }
 
 body > #backofficeUsuaris {
@@ -197,7 +203,15 @@ body > #popups {
 
 #popups > div {
     border: solid 1px black;
-    background-color: lightcyan;
+    background-color: yellow;
+    width: 320px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 100px;
     display: none;
 }
 
